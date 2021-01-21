@@ -35,6 +35,23 @@
 ![d](assets/markdown-img-paste-20210121164511443.png)
 * 新建一个文件
 * 按快捷键Ctrl+Shift+9会出现git的相关状态
-![e](assets/markdown-img-paste-20210121164827107.png)
-![d](assets/markdown-img-paste-20210121164914543.png)
+![](assets/markdown-img-paste-20210121180632390.png)
+![](assets/markdown-img-paste-20210121180446115.png)
 ####直接使用Atom的github来关联（推荐，不需要敲命令）
+* 添加项目到Atom
+* 配置git与github，输入github的帐号密码。
+![](assets/markdown-img-paste-20210121173201989.png)
+![](assets/markdown-img-paste-20210121173221618.png)
+![](assets/markdown-img-paste-20210121172548790.png)
+![](assets/markdown-img-paste-20210121172736393.png)
+![](assets/markdown-img-paste-20210121172844256.png)
+这里的publish失败的话，就先执行一下
+`git remote add origin https://github.com/ericxiaoc/Eric_Test.git`
+####授权GitHub使用Atom
+要在GitHub项目中进行更改 ，您需要为GitHub授权Atom。
+* 访问 github.atom.io/login URL并登录到GitHub帐户。
+* 复制网址中获取到的token。
+* 填写对应的token即可。
+![](assets/markdown-img-paste-20210121181144614.png)
+![](assets/markdown-img-paste-20210121181301249.png)
+#####终于配置环境完成，开始小编之路。
