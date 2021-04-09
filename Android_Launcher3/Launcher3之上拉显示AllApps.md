@@ -617,8 +617,8 @@ public void onDragEnd(float velocity, boolean fling) {
 ```
 * 首先通过fling来判断是否是快速滑动事件，通过(velocity < 0)来判断是否是向上滑，总结起来就是在Hotseat区域快速往上滑可以直接进入all apps; 其他方向则继续停留Workspace;
 * 若不是快速的滑动，慢慢的往上滑动，拖动Hotseat的区域过半则进入all apps，反则停留在Workspace，如下图的效果；
-![demo.mp4_20210313_112524](/assets/demo.mp4_20210313_112524.gif)
+![demo.mp4_20210313_112524](assets/demo.mp4_20210313_112524.gif)
 * 这里就不分析一下mLauncher.showWorkspace()以及mLauncher.showAppsView()的实现了，下章见！
 
 #####参考文献
-https://blog.csdn.net/lmpt90/article/details/89308908 
+https://blog.csdn.net/lmpt90/article/details/89308908
