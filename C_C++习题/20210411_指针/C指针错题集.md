@@ -103,3 +103,23 @@ A. 100
 B. 50
 C. 101
 D. 200
+###
+12. 下面程序输出什么(  )
+```c
+#include <stdio.h>
+#include <stdlib.h>
+void test(int x, int *y) {
+	int t;
+	t = x;
+	x = *y;
+	*y = t;
+}
+void main() {
+	int a = 10, b = 20;
+	printf("a=%d,b=%d\n", a, b);
+	test(a, &b);
+	printf("a=%d,b=%d\n", a, b);
+}
+```
+###
+13. 编写函数，通过指针连接两个字符串。
