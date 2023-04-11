@@ -15,4 +15,3 @@
   140.82.113.3 gist.github.com
   34.193.233.154 github.atom.io
 ```
-　

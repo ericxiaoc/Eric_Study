@@ -57,6 +57,11 @@ git remote -v
 git remote remove origin
 git remote add origin http://eric@192.168.12.230:8686/r/mt8385_android_p.git
 ```
+* git add到远程服务器有些目录并没有提交上去
+解决办法：
+``` shell
+git add -f ./build/tools
+```
 ####局域网内其他人协同开发
 如果需要多个用户来登录gitblit，就需要设置一下防火墙的相关设置；
 * 打开"控制面板"-->"管理工具"-->"高级安全Windows Defender 防火墙"，如图所示：

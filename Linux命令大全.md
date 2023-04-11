@@ -1,4 +1,4 @@
-###新增ubuntu用户
+ ###新增ubuntu用户
 ``` shell
 sudo adduser username
 
@@ -91,3 +91,21 @@ cp --path aps/customer/s2tek/public/panel/AUO_T420HW04_V0_1920x1080_99du/panel_s
 ``` shell
 scp -r mt8385_android_p_v1.345.tar.7z.001 eric@192.168.12.10://media/server10/user27/eric/mt8385
 ```
+###7z压缩包解压
+``` shell
+7z x mt8788_wifi_android_q_v1.22.tar.7z.001
+```
+###tar压缩包解压
+``` shell
+tar -zxvf mt8788_wifi_android_q_v1.22.tar.gz
+```
+export LC_ALL=C
+### find文件并带路径拷贝到指定目录
+``` shell
+find -name ".gitignore" -exec cp --parents -r {} ../ly_rk356x_gitignore/ \;
+```
+
+DMC_FREQ_LEVEL_HIGH //最高频率(2112MHz)
+DMC_FREQ_LEVEL_MID_HIGH //第二档(1560MHz)
+DMC_FREQ_LEVEL_MID_LOW //第三档(1068MHz)
+DMC_FREQ_LEVEL_LOW //最低频率(528MHz)
